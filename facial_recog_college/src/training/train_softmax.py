@@ -10,7 +10,7 @@ import pickle
 
 # Construct the argumet parser and parse the argument
 from detectfaces_mtcnn.Configurations import get_logger
-from src.insightface.alignment.test import M
+# from insightface.alignment.test import MtcnnDetector
 from training.softmax import SoftMax
 
 

@@ -5,7 +5,7 @@ import numpy as np
 import os
 import mxnet as mx
 import datetime
-import img_helper
+from img_helper import estimate_trans_bbox
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'deploy'))
 from mtcnn_detector import MtcnnDetector
 
@@ -40,7 +40,7 @@ class Handler:
       return None
     bbox = bbox[0,0:4]
     points = points[0,:].reshape((2,5)).T
-    M = img_helper.estimate_trans_bbox(bbox, self.image_size[0], s = 2.0)
+    M = estimate_trans_bbox(bbox, self.image_size[0], s = 2.0)
     rimg = cv2.warpAffine(img, M, self.image_size, borderValue = 0.0)
     img = cv2.cvtColor(rimg, cv2.COLOR_BGR2RGB)
     img = np.transpose(img, (2,0,1)) #3*112*112, RGB
