@@ -8,7 +8,7 @@
 #### 3) conda create -n face_att python==3.6.9
 #### 4) conda activate face_att
 #### 5) pip install -r requirements.txt
-#####  a).  cd src  b). python clientApp.py
+#####  a).  cd src  b). python app.py
 
 ----------------------------------------------------
 # Resources 
