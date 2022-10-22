@@ -5,7 +5,6 @@ chardet==3.0.4
 click==7.1.1
 cycler==0.10.0
 decorator==4.4.1
-dlib==19.19.0
 easydict==1.9
 gast==0.2.2
 google-pasta==0.1.8
@@ -53,3 +52,5 @@ termcolor==1.1.0
 urllib3==1.25.7
 Werkzeug==0.16.0
 wrapt==1.11.2
+dlib==19.19.0
+https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
