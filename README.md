@@ -1,6 +1,9 @@
 
 ## Attedance System using Face Recognition to prevent PROXY's in college ;)
-https://user-images.githubusercontent.com/77198067/197419910-535927d0-920d-4563-87e7-e32e387ad8b2.mp4
+
+
+https://user-images.githubusercontent.com/77198067/197420054-446e0295-21cc-4d16-a86e-435b3a5e9919.mp4
+
 
 --------------------------------
 >### HOW to run -> 
